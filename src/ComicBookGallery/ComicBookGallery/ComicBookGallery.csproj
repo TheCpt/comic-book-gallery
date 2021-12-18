@@ -5,6 +5,141 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net5.0\ComicBookGallery.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\ComicBookGallery.RazorAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\ComicBookGallery.RazorTargetAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\ComicBooks\Detail.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs" />
+    <Compile Include="obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net5.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net5.0\appsettings.json" />
+    <Content Include="bin\Debug\net5.0\ComicBookGallery.deps.json" />
+    <Content Include="bin\Debug\net5.0\ComicBookGallery.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0\ComicBookGallery.runtimeconfig.json" />
+    <Content Include="obj\ComicBookGallery.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net5.0\ComicBookGallery.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net5.0\staticwebassets\ComicBookGallery.StaticWebAssets.xml" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0\ComicBookGallery.dll" />
+    <None Include="bin\Debug\net5.0\ComicBookGallery.exe" />
+    <None Include="bin\Debug\net5.0\ComicBookGallery.pdb" />
+    <None Include="bin\Debug\net5.0\ComicBookGallery.Views.dll" />
+    <None Include="bin\Debug\net5.0\ComicBookGallery.Views.pdb" />
+    <None Include="bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll" />
+    <None Include="bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\Humanizer.dll" />
+    <None Include="bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" />
+    <None Include="bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" />
+    <None Include="bin\Debug\net5.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\ref\ComicBookGallery.dll" />
+    <None Include="bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe" />
+    <None Include="bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe" />
+    <None Include="bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\System.Composition.AttributedModel.dll" />
+    <None Include="bin\Debug\net5.0\System.Composition.Convention.dll" />
+    <None Include="bin\Debug\net5.0\System.Composition.Hosting.dll" />
+    <None Include="bin\Debug\net5.0\System.Composition.Runtime.dll" />
+    <None Include="bin\Debug\net5.0\System.Composition.TypedParts.dll" />
+    <None Include="bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="obj\ComicBookGallery.csproj.nuget.g.props" />
+    <None Include="obj\ComicBookGallery.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net5.0\apphost.exe" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.assets.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.csproj.CopyComplete" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.dll" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.pdb" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.RazorCoreGenerate.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.TagHelpers.input.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.TagHelpers.output.cache" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.Views.dll" />
+    <None Include="obj\Debug\net5.0\ComicBookGallery.Views.pdb" />
+    <None Include="obj\Debug\net5.0\ref\ComicBookGallery.dll" />
+    <None Include="obj\Debug\net5.0\staticwebassets\ComicBookGallery.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
 
